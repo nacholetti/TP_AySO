@@ -1,1 +1,2 @@
 Usuario=vagrant
+Modelo_CPU=AMD Athlon 3000G with Radeon Vega Graphics
