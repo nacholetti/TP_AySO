@@ -1,0 +1,123 @@
+l
+cd repogit
+ls
+repo_martinezlettini
+cd repo_martinezlettini
+ls
+git status
+git push
+git add .
+git commit -m "Todo bien"
+git config --global user.email nachomlettini@gmail.com
+git config --globar user.name "nacholetti"
+git commit -m "Otro"
+git config --global user.email "nachomlettini@gmail.com"
+git add .
+git push
+git commit -m "Holaa"
+git add .
+git push
+git status
+cat /etc/passwd
+head /etc/passwd
+grep bash /etc/passwd
+grep -n bash /etc/passwd
+grep bash /etc/passwd > archivo2.txt
+ls -l
+cat archivo2.txt
+sort archivo2.txt
+cat << EOF > archivo3.txt
+linea 1
+linea 2
+linea 3
+EOF
+
+LS
+ls
+car archivo3.txt
+cat archivo3.txt
+bc <<< 5+2
+cpuinfo
+cpu-info
+ls
+pwd
+ssh-keygen -t ed25519
+ls
+ls -l
+ls -la
+cd .ssh
+ls
+ls -l
+cat id_ed25519.pub 
+cd ..
+ls
+ls -l
+repogit
+cd repogit
+ls -l
+pwd
+git clone git@github.com:nacholetti/repo_martinezlettini.git
+ls -.
+ls -l
+cd repo_martinezlettini
+echo "hola" > hola.txt
+ls
+git status
+git add .
+git status
+git commit -m "Primer comit"
+ls
+cd repogit
+pwd
+git clone git@github.com:nacholetti/TP_AySO.git
+ls
+cd TP_AySO
+pwd
+ls -l
+cat/etc/os-release
+cat /etc/os-release
+man grep
+grep HOME_URL/etc/os-release
+ls
+man grep
+grep HOME_URL etc/os-release
+cat etc/os-release
+cat /etc/os-release
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i home_url /etc/-os-release
+grep -i home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+ls
+git add .
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuario.txt"
+git status
+/proc/cpuinfo
+echo "Modelo_CPU=$(grep -m 1 'model name' /proc/cpuinfo | awk -f':' '{print $2}')" >> datos_usuarios.txt
+echo "Modelo_CPU=$(grep -m 1 'model name' /proc/cpuinfo | cut -d: -f2 | xargs)" >> datos_usuario.txt
+ls
+git add datos_usuarios.txt
+git commit - "feat: Añadiendo informacion de CPU"
+git commit -m "feat: añadiendo informacion de CPU"
+echo grep -v ":nologin" /etc/passwd
+grep -v ':nologin' /etc/passwd | head -n 10
+grep -v ':nologin' /etc/passwd | sort -t: -k7 | head -n 10
+grep -v ':nologin' /etc/passwd | sort -t: -k7 | head -n 10 > lista_ordenada
+ls
+git add lista_ordenada
+git commit -m "ADD: listado de usuarios ordenado"
+echo "tcpdump" > comando_dump_net
+echo "tcpdump -i any -w capture.pcap" >> comando_dump_net
+git add comando_dump_net
+git commit -m "ADD: Comando para capturar y analizar el trafico de red"
+cat <<EOL >> README.md
+Alumno: Ignacio tomas martinez lettini
+Division : DIV 311
+Turno : Noche
+EOL
+
+git add README.md
+git add .
+git commit -m "ADD: Alumno agregado a readme"
+history -a
